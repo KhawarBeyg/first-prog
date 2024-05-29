@@ -1,0 +1,15 @@
+# Import the datetime module
+import datetime
+
+# Get the current date and time
+now = datetime.datetime.now()
+
+# Extract the date, time, and day of the week
+current_date = now.strftime("%Y-%m-%d")   # Format: YYYY-MM-DD
+current_time = now.strftime("%H:%M:%S")   # Format: HH:MM:SS
+day_of_week = now.strftime("%A")          # Full weekday name
+
+# Print the current date, time, and day of the week
+print("Current Date: ", current_date)
+print("Current Time: ", current_time)
+print("Day of the Week: ", day_of_week)
